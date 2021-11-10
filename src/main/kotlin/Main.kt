@@ -78,4 +78,5 @@ object Main {
         val student = createStudentMenu(scanner)
         studentService.subscribeStudent(student)
     }
+
 }

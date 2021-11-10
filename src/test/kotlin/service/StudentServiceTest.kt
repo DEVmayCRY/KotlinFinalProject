@@ -8,7 +8,6 @@ import kotlin.test.assertNotEquals
 internal class StudentServiceTest {
 
     @Test
-
     fun findStudentTest() {
 
         val findStudent = StudentService()
@@ -17,7 +16,7 @@ internal class StudentServiceTest {
 
         findStudent.subscribeStudent(estudante)
 
-        assertNotEquals(null, findStudent.findStudent("4002"))
+        assertNotEquals(null, findStudent.findStudent("39203"))
     }
 
 }
